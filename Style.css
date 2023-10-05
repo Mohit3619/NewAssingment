@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Top {
+    background: linear-gradient(251deg, #461096 0.57%, #7F3CE0 99.97%);
+}
+
+.TopMid {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(251deg, #461096 0.57%, #7F3CE0 99.97%);
+}
+
+.Logo {
+    color: #42B4EE;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    display: flex;
+}
+
+.Nav {
+    display: flex;
+    gap: 30px;
+    align-items: center
+}
+
+.Home {
+    position: relative;
+
+    color: #44B4EE;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 28.8px */
+   
+}
+
+.Home::before{
+    top: 33px;
+    position: absolute;
+    content: " ";
+    width: 50px;
+    height: 2px;
+    background-color:#44B4EE;
+    border-radius: 50%;
+}
+
+.Nav {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.NavBtn {
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #42B4EE;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+
+.TextTitle {
+    width: 498px;
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 74.4px */
+}
+
+.SubText {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 28.8px */
+    width: 435px;
+}
+
+
+.PictureText {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    height: 600px;
+}
+
+.MidSection {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.MidSubHeading {
+    margin-top: 2%;
+    display: flex;
+    gap: 3%;
+}
+
+.MainHeading {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: var(--Black, #051114);
+
+    /* Subtitle / Base */
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 57.2px */
+    width: 508px;
+}
+
+.BigMidTxt {
+    color: var(--Black, #051114);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 37.5px */
+}
+
+.SmallMidTxt {
+    width: 367px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    color: var(--Black, #051114);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 22.4px */
+}
+
+.MidPic1 img {
+    width: 873px;
+}
+
+.MidTextMiddle {
+    width: 549px;
+    color: var(--Black, #051114);
+    text-align: center;
+
+    /* Subtitle / Base */
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 57.2px */
+}
+
+.MidSubHeadingImg {
+    margin-top: 2px;
+    width: 24px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+
+/*Middle Part Cards*/
+
+.Card1a {
+    width: 263px;
+    height: 417px;
+    flex-shrink: 0;
+    background:#FFF;
+   border-radius: 10px;
+   border: 5px solid black;
+}
+
+.CardImg1a1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 211px;
+    width: 265px;
+}
+
+.CardMainCont1a {
+    padding-top: 26px;
+    background: no-repeat url('BtmImage.png');
+    width: 265px;
+    height: 209px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+}
+
+
+
+
+.Card1Text {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    justify-content: center;
+}
+
+.Card1Text img {
+    width: 30px;
+    margin: auto;
+    height: 30px;
+}
+
+.Card1Text h1 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.Card1Text h2 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 22.4px */
+}
+
+
+
+.CardSubTitle1a {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.CarList1
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
