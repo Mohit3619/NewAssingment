@@ -1,61 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Style.css">
-</head>
-
-<body>
-    <div class="Main">
-        <div class="Top">
-            <div class="TopMid">
-                <div class="Logo">
-                    <img src="Logo.png" alt="">
-                    <div>
-                        <p class="LogoTxt">Codext</p>
-
-                    </div>
+ <div class="MidSection">
+            <div class="MidPic1">
+                <img src="GroupTopTop.png" alt="">
+            </div>
+            <div class="MidText">
+                <div class="MainHeading">
+                    <p>
+                        It’s helpful for operating
+                        system
+                    </p>
                 </div>
-                <div class="Nav">
-                    <p class="Home">Home</p>
-                    <p>services</p>
-                    <p>Pricing</p>
-                    <p>Testimonials</p>
-                    <p>Blog</p>
-                    <button class="NavBtn">FREE TRIAL</button>
+                <div class="MidTextCont">
+                    <div class="MidSubHeading">
+                        <img class="MidSubHeadingImg" src="Vector (1).png" class="Vector" alt="">
+                        <p class="BigMidTxt">Ultra fast & Secure</p>
+                    </div>
+                    <p class="SmallMidTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        vitae velit proin justo, elementum siIn morbi </p>
+                </div>
+                <div class="MidTextCont">
+                    <div class="MidSubHeading">
+                        <img class="MidSubHeadingImg" src="Vector (2).png" class="Vector" alt="">
+                        <p class="BigMidTxt">Allows customization</p>
+                    </div>
+                    <p class="SmallMidTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        vitae velit proin justo, elementum siIn morbi </p>
+                </div>
+                <div class="MidTextCont">
+                    <div class="MidSubHeading">
+                        <img class="MidSubHeadingImg" src="Vector.png" class="Vector" alt="">
+                        <p class="BigMidTxt">Smart contract</p>
+                    </div>
+                    <p class="SmallMidTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        vitae velit proin justo, elementum siIn morbi </p>
                 </div>
             </div>
-            <div class="PictureText">
-                <div class="Text" style="margin-top: 30px;">
-                    <p class="TextTitle">Codext one of the best system in SAAS.</p>
-                    <div class="SubText" style="margin-top: 30px;">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A nulla nulla etiam turpis quam diam
-                            et.
-                            Arcu nisi, sed aenean sit nisl.</p>
-                        <div class="TopLeftBtn" style="margin-top: 30px;">
-                            <button class="NavBtn">Try A Live Demo</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="TopImg">
-                    <img src="LeftTop.png">
-                </div>
-
-
-            </div>
-
-
         </div>
-        <!-- Mid Section -->
-       
 
 
 
 
-        
+
+
+
+        footer
+            
         <div style="display: flex; align-items: center; justify-content: center; margin-top: 30px;">
             <div class="MidTextMiddle">
                 <p>We Provides best Features for customar</p>
@@ -292,7 +281,10 @@
             </div>
         </div>
 
-        <div class="Footer">
+
+
+footer
+<div class="Footer">
             <div class="FirstDiv">
                 <div class="Logo">
                     <img src="Logo.png" alt="">
@@ -338,7 +330,3 @@
             <hr>
             <p>Copyright 2021 The Codext  All Rights Reserved.</p>
         </div>
-    </div>
-</body>
-
-</html>
